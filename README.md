@@ -1,35 +1,35 @@
-#Organizing at the Zoo
+#Organizing at the Grocery Store
 
-The Bronx Zoo wants to organize all of their animals using a file tree. They have begun the process, but have some more sorting to do.
+Your local grocery store wants to organize all of their foods using a file tree. They have begun the process, but have some more sorting to do.
 
-Open the `Animals` file and see what sort of organization they have set up so far.
+Open the `Food_Groups` file and see what sort of organization they have set up so far.
 
-Inside `Animals` you'll see an `Unsorted` directory. Let's help the zoo sort some of these animals.
+Inside `Food_Groups` you'll see an `unsorted` directory. Let's help them sort some of these foods.
 
-`Sparrow` is one of the unsorted animals. We know that it belongs in the `Bird` directory. Let's move it there. We will use a new command `mv` which stands for move.
+`cabbage` is one of the unsorted foods. We know that it belongs in the `vegetables` directory. Let's move it there. We will use a new command `mv` which stands for move.
 
 `mv` works like this:
 
 	mv [file name to be moved] [directory to be moved to]
 
-Make sure you're in the `Unsorted` file before you begin.
+Make sure you're in the `unsorted` file before you begin.
 
-	[11:07:55] Unsorted
-	// ♥ mv sparrow ../Birds
+	[11:07:55] unsorted
+	// ♥ mv cabbage ../vegetables
 
-Here we take `sparrow` from the `Unsorted` directory, and we move it outside of `Unsorted` (using `..`) and then back into the `Birds` directory.
+Here we take `cabbage` from the `unsorted` directory, and we move it outside of `unsorted` (using `..`) and then back into the `vegetables` directory.
 
-If we `cd` out of `Unsorted` and into `Birds` now, we will see that our file has moved.
+If we `cd` out of `unsorted` and into `vegetables` now, we will see that our file has moved.
 
-	[11:08:18] Unsorted
+	[11:08:18] unsorted
 	// ♥ cd ..
-	[11:11:08] Animals
-	// ♥ cd Birds
-	[11:11:11] Birds
+	[11:11:08] Food_Groups
+	// ♥ cd vegetables
+	[11:11:11] vegetables
 	// ♥ ls
-	hummingbird	owl		penguin		sparrow
+	cabbage	carrot	celery	kale
 
-One animal sorted! Now it's your turn to sort the rest. 		
-Hint: Some of the animals listed don't belong in any of the categories. Use your command line skills to create a new folder so that we end with an empty `Unsorted` folder.
+One food sorted! Now it's your turn to sort the rest. 		
+Hint: Some of the foods listed don't belong in any of the categories. Use your command line skills to create a new folder so that we end with an empty `unsorted` folder.
 
-Stretch: Break down these categories even further! Shelled vs. non-shelled reptiles? Winged insects vs legged? Help the zoo out and get even more specific with your organization. Add as many animals as you see fit!
+Stretch: Break down these categories even further! Root vs vine vegetables? Fat vs non-fat? Get even more specific with your organization. Add as many foods as you see fit!
